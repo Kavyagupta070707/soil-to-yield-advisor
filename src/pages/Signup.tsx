@@ -45,7 +45,7 @@ const Signup = () => {
     setTimeout(() => {
       toast({
         title: "Account Created Successfully",
-        description: "Welcome to AgriSmart! Please sign in to continue.",
+        description: "Welcome to AgriCure! Please sign in to continue.",
       });
       navigate("/login");
       setIsLoading(false);
@@ -57,8 +57,8 @@ const Signup = () => {
       <div className="w-full max-w-md">
         <div className="text-center mb-8">
           <Link to="/" className="inline-flex items-center space-x-2">
-            <Leaf className="h-10 w-10 text-grass-600" />
-            <span className="text-3xl font-bold text-grass-800">AgriSmart</span>
+           <img src="/public/favicon.ico" alt=""  className="h-8 w-8 text-grass-600"/>
+            <span className="text-3xl font-bold text-grass-800">AgriCure</span>
           </Link>
         </div>
         
@@ -77,7 +77,7 @@ const Signup = () => {
                   id="name"
                   name="name"
                   type="text"
-                  placeholder="John Farmer"
+                  
                   value={formData.name}
                   onChange={handleChange}
                   required

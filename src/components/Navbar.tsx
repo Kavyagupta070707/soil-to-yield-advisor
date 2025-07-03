@@ -9,19 +9,20 @@ const Navbar = () => {
       <div className="container mx-auto px-4 py-4">
         <div className="flex items-center justify-between">
           <Link to="/" className="flex items-center space-x-2">
-            <Leaf className="h-8 w-8 text-grass-600" />
-            <span className="text-2xl font-bold text-grass-800">AgriSmart</span>
+          <img src="/public/favicon.ico" alt=""  className="h-8 w-8 text-grass-600"/>
+            
+            <span className="text-2xl font-bold text-grass-800">AgriCure</span>
           </Link>
           
           <div className="hidden md:flex items-center space-x-8">
-            <Link to="/" className="text-gray-700 hover:text-grass-600 transition-colors">
+            <a href="#home" className="text-gray-700 hover:text-grass-600 transition-colors">
               Home
-            </Link>
+            </a>
             <a href="#features" className="text-gray-700 hover:text-grass-600 transition-colors">
               Features
             </a>
-            <a href="#about" className="text-gray-700 hover:text-grass-600 transition-colors">
-              About
+            <a href="#how-it-works" className="text-gray-700 hover:text-grass-600 transition-colors">
+              How It Works
             </a>
           </div>
           

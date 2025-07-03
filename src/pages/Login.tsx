@@ -23,7 +23,7 @@ const Login = () => {
     setTimeout(() => {
       toast({
         title: "Login Successful",
-        description: "Welcome back to AgriSmart!",
+        description: "Welcome back to AgriCure!",
       });
       navigate("/dashboard");
       setIsLoading(false);
@@ -35,8 +35,8 @@ const Login = () => {
       <div className="w-full max-w-md">
         <div className="text-center mb-8">
           <Link to="/" className="inline-flex items-center space-x-2">
-            <Leaf className="h-10 w-10 text-grass-600" />
-            <span className="text-3xl font-bold text-grass-800">AgriSmart</span>
+            <img src="/public/favicon.ico" alt=""  className="h-8 w-8 text-grass-600"/>
+            <span className="text-3xl font-bold text-grass-800">AgriCure</span>
           </Link>
         </div>
         
@@ -44,7 +44,7 @@ const Login = () => {
           <CardHeader className="text-center">
             <CardTitle className="text-2xl font-bold text-gray-900">Welcome Back</CardTitle>
             <CardDescription className="text-gray-600">
-              Sign in to your AgriSmart account
+              Sign in to your AgriCure account
             </CardDescription>
           </CardHeader>
           <CardContent>

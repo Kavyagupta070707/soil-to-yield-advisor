@@ -9,8 +9,8 @@ const Footer = () => {
         <div className="grid md:grid-cols-4 gap-8">
           <div>
             <Link to="/" className="flex items-center space-x-2 mb-4">
-              <Leaf className="h-8 w-8 text-grass-400" />
-              <span className="text-2xl font-bold">AgriSmart</span>
+              <img src="/public/favicon.ico" alt=""  className="h-8 w-8 text-grass-600"/>
+              <span className="text-2xl font-bold">AgriCure</span>
             </Link>
             <p className="text-gray-400">
               Empowering farmers with smart technology for sustainable and profitable agriculture.
@@ -46,7 +46,7 @@ const Footer = () => {
         </div>
         
         <div className="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400">
-          <p>&copy; 2024 AgriSmart. All rights reserved.</p>
+          <p>&copy; 2025 AgriCure. All rights reserved.</p>
         </div>
       </div>
     </footer>

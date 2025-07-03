@@ -157,7 +157,7 @@ const FarmOverview = ({ soilData, recommendations }) => {
         <Card>
           <CardContent className="flex flex-col items-center justify-center py-12">
             <BarChart3 className="h-12 w-12 text-gray-400 mb-4" />
-            <h3 className="text-lg font-semibold text-gray-900 mb-2">Welcome to AgriSmart</h3>
+            <h3 className="text-lg font-semibold text-gray-900 mb-2">Welcome to AgriCure</h3>
             <p className="text-gray-600 text-center max-w-md">
               Get started by analyzing your soil data. Our AI will provide personalized fertilizer recommendations to maximize your crop yields.
             </p>

@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 const Hero = () => {
   return (
-    <section className="py-20 lg:py-32 gradient-bg">
+    <section id="home" className="py-20 lg:py-32 gradient-bg">
       <div className="container mx-auto px-4">
         <div className="text-center animate-fade-in">
           <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold text-gray-900 mb-6">
@@ -19,8 +19,8 @@ const Hero = () => {
             <Button asChild size="lg" className="bg-grass-600 hover:bg-grass-700 text-lg px-8 py-6">
               <Link to="/signup">Start Free Trial</Link>
             </Button>
-            <Button asChild variant="outline" size="lg" className="text-lg px-8 py-6 border-grass-600 text-grass-600 hover:bg-grass-50">
-              <Link to="/dashboard">View Demo</Link>
+            <Button asChild variant="outline" size="lg" className="bg-white-600 hover:bg-grass-700 text-lg px-8 py-6">
+              <Link to="/video">View Demo</Link>
             </Button>
           </div>
         </div>

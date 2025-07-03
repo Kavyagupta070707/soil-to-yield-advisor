@@ -27,8 +27,8 @@ const DashboardHeader = () => {
       <div className="container mx-auto px-4 py-4">
         <div className="flex items-center justify-between">
           <Link to="/" className="flex items-center space-x-2">
-            <Leaf className="h-8 w-8 text-grass-600" />
-            <span className="text-2xl font-bold text-grass-800">AgriSmart</span>
+            <img src="/public/favicon.ico" alt=""  className="h-8 w-8 text-grass-600"/>
+            <span className="text-2xl font-bold text-grass-800">AgriCure</span>
           </Link>
           
           <div className="flex items-center space-x-4">
@@ -36,7 +36,7 @@ const DashboardHeader = () => {
               <DropdownMenuTrigger asChild>
                 <Button variant="ghost" className="flex items-center space-x-2">
                   <User className="h-5 w-5" />
-                  <span>John Farmer</span>
+                  <span></span>
                 </Button>
               </DropdownMenuTrigger>
               <DropdownMenuContent align="end" className="w-48 bg-white">

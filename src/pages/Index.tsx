@@ -7,6 +7,7 @@ import Navbar from "@/components/Navbar";
 import Hero from "@/components/Hero";
 import Features from "@/components/Features";
 import Footer from "@/components/Footer";
+import HowItWorks from "@/components/HowItWorks";
 
 const Index = () => {
   return (
@@ -14,6 +15,7 @@ const Index = () => {
       <Navbar />
       <Hero />
       <Features />
+      <HowItWorks/>
       
       {/* CTA Section */}
       <section className="py-20 bg-grass-600 text-white">
@@ -28,7 +30,7 @@ const Index = () => {
             <Button asChild size="lg" className="bg-white text-grass-600 hover:bg-gray-100">
               <Link to="/signup">Get Started Free</Link>
             </Button>
-            <Button asChild variant="outline" size="lg" className="border-white text-white hover:bg-white hover:text-grass-600">
+            <Button asChild  size="lg" className="bg-white text-grass-600 hover:bg-gray-100">
               <Link to="/login">Already a Member?</Link>
             </Button>
           </div>
